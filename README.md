@@ -1,29 +1,19 @@
-# todo_vuejs
+# To-do list
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto de uma To-do list.
 
-## Recommended IDE Setup
+## Tabela de Conteúdo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Visão Geral](#vis%C3%A3o-geral)
+- [Tecnologias Usadas](#tecnologias-usadas)
 
-## Customize configuration
+## Visão Geral
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Nesse projeto há uma to-do list onde você pode verificar o número de tarefas pendentes, adicionar e remover tarefas, e filtrar as tarefas entre as pendentes, as finalizadas e todas tarefas. O site está totalmente responsivo
 
-## Project Setup
+## Tecnologias Usadas
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- HTML
+- CSS
+- Bootstrap
+- Vue.js
