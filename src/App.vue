@@ -1,9 +1,9 @@
 <script setup>
 
 import { reactive, onMounted } from 'vue';
-import Cabecalho from './components/Header.vue';
-import Formulario from './components/Form.vue';
-import Lista from './components/Todo.vue';
+import Header from './components/Header.vue';
+import Form from './components/Form.vue';
+import Todo from './components/Todo.vue';
 
 const estado = reactive({
   filtro: "",
@@ -65,18 +65,10 @@ onMounted(() => {
 
 <main>
   <div class = "container">
-    <Cabecalho tarefas-pendentes = "10"/>
-    <Formulario />
-    <Lista />
+    <Header v-bind:tarefas-pendentes = "getTarefasPendentes().length" />
+    <Form v-bind:trocar-filtro = "evento => estado.filtro = evento.target.value" v-bind:tarefa-temp = "estado.tarefaTemp" v-bind:edita-tarefa-temp = "evento => estado.tarefaTemp = evento.target.value" v-bind:cadastra-tarefa = "cadastraTarefa"/>
+    <Todo v-bind:tarefas = "getTarefasFiltradas()" v-bind:deletaTarefa = "() => deletaTarefa(index)"/>
   </div>
 </main>
 
 </template>
-
-<style scoped>
-
-.done {
-  text-decoration: line-through;
-}
-
-</style>
