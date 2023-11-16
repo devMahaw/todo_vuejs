@@ -9,7 +9,7 @@ Projeto de uma To-do list.
 
 ## Visão Geral
 
-Nesse projeto há uma to-do list onde você pode verificar o número de tarefas pendentes, adicionar e remover tarefas, e filtrar as tarefas entre as pendentes, as finalizadas e todas tarefas. O site está totalmente responsivo
+Nesse projeto há uma to-do list onde você pode verificar o número de tarefas pendentes, adicionar e remover tarefas, e filtrar as tarefas entre as pendentes, as finalizadas e todas tarefas. O site está totalmente responsivo.
 
 ## Tecnologias Usadas
 
