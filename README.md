@@ -16,4 +16,5 @@ Nesse projeto há uma to-do list onde você pode verificar o número de tarefas 
 - HTML
 - CSS
 - Bootstrap
+- Vite
 - Vue.js
